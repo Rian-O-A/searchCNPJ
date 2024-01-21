@@ -5,6 +5,9 @@ def main():
     # Criação do parser e definição dos argumentos
     parser = argparse.ArgumentParser(description='Pesquisa rapida de cnpj')
     
+    # Precurar informações do CNPJ -search
+    parser.add_argument('-search', type=str, help='CNPJ desejado')
+    
     # Adiciona o argumento -page
     parser.add_argument('-page', type=int, help='Número da página')
 
@@ -15,16 +18,17 @@ def main():
     args = parser.parse_args()
 
     # Verifica se os argumentos foram fornecidos
-    if args.page is None:
-        parser.error('O argumento -page é necessário.')
+    # if args.page is None and args:
+    #     parser.error('O argumento -page é necessário.')
 
     # Agora você pode acessar os valores dos argumentos
+    search = args.search
     pages = args.page
     path = args.path
 
     
     
-    start(pages=pages, path=path)
+    start(search=search, pages=pages, path=path)
 
 if __name__ == '__main__':
     main()
