@@ -6,7 +6,9 @@ Este é um script Python para realizar uma pesquisa rápida de CNPJ. Ele utiliza
 ## Pré-requisitos
 Certifique-se de que você tenha Python instalado no seu sistema. Além disso, você pode precisar instalar algumas dependências. 
 
-**Você pode instalá-las executando:**
+1- **Você pode instalá-las executando:**
+    ```bash
+   git clone https://github.com/Rian-O-A/QuickCalculator.git
     ```bash
     pip install -r requirements.txt 
 
