@@ -6,11 +6,11 @@ Este é um script Python para realizar uma pesquisa rápida de CNPJ. Ele utiliza
 ## Pré-requisitos
 Certifique-se de que você tenha Python instalado no seu sistema. Além disso, você pode precisar instalar algumas dependências. 
 
-**Você pode instalá-las executando:** Teste:
+**Você pode instalá-las executando:**
     ```bash
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
-Uso
+## Uso
 Execute o script a partir da linha de comando, fornecendo os argumentos necessários. Abaixo estão os argumentos suportados:
 
 - **search:** CNPJ desejado para pesquisa.
@@ -19,7 +19,7 @@ Execute o script a partir da linha de comando, fornecendo os argumentos necessá
 
 **Exemplo de Uso**
     ```bash
-    python script.py -search 12345678901234 -page 1 -path /caminho/para/salvar/resultado.json
+    python script.py -search 12345678901234 -page 1 -path /caminho/para salvar/resultado.json
 
 - **Nota:** O argumento -path é obrigatório. Certifique-se de fornecê-lo ao executar o script.
 
