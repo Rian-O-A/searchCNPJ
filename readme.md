@@ -8,7 +8,7 @@ Certifique-se de que você tenha Python instalado no seu sistema. Além disso, v
 
 **Você pode instalá-las executando:**
     ```bash
-        pip install -r requirements.txt
+    pip install -r requirements.txt 
 
 ## Uso
 Execute o script a partir da linha de comando, fornecendo os argumentos necessários. Abaixo estão os argumentos suportados:
