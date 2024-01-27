@@ -6,7 +6,7 @@ Este é um script Python para realizar uma pesquisa rápida de CNPJ. Ele utiliza
 ## Pré-requisitos
 Certifique-se de que você tenha Python instalado no seu sistema. Além disso, você pode precisar instalar algumas dependências. 
 
-**Você pode instalá-las executando:**
+**Você pode instalá-las executando:** Teste:
     ```bash
     pip install -r requirements.txt
 
