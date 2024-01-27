@@ -27,4 +27,4 @@ Execute o script a partir da linha de comando, fornecendo os argumentos necessá
 Sinta-se à vontade para contribuir para este projeto. Se você encontrar problemas ou tiver sugestões de melhorias, por favor, abra uma issue ou envie um pull request.
 
 ## Licença
-Este projeto é licenciado sob a MIT License.
+Este projeto é licenciado sob a [MIT licensed](./LICENSE).
