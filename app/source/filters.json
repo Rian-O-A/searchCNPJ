@@ -16,8 +16,8 @@
     },
     "extras": {
         "somente_mei": false,
-        "excluir_mei": false,
-        "com_email": false,
+        "excluir_mei": true,
+        "com_email": true,
         "incluir_atividade_secundaria": false,
         "com_contato_telefonico": false,
         "somente_fixo": false,

@@ -28,7 +28,7 @@ class Pesquisar:
             raise ValueError(f"Algo inesperado ocorreu. Código de status: {response.status_code}")
         
 
-    def InfoCNPJ(cnpj):
+    def InfoCNPJ(self, cnpj):
         
         link = config["url"]+ cnpj
         response= requests.get(link, headers=config["headers"])

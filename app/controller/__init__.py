@@ -13,7 +13,7 @@ def start(pages=None, path=None, search=None):
                 raise ValueError(f'Caminho "{path}" não encontrado!')
             
         if search:
-            response = Pesquisar.InfoCNPJ(cnpj=search)
+            response = Pesquisar().InfoCNPJ(cnpj=search)
             saveJSON(packet=response, path=path)
             
                 
@@ -29,7 +29,7 @@ def start(pages=None, path=None, search=None):
             for page in range(1, pages+1):
                 data["page"] = page
             
-                response = Pesquisar.package(data= data)
+                response = Pesquisar().package(data=data)
                 packetCNPJ.extend(response)
                 progress_bar.update(1)
                 

@@ -18,8 +18,8 @@ def main():
     args = parser.parse_args()
 
     # Verifica se os argumentos foram fornecidos
-    # if args.page is None and args:
-    #     parser.error('O argumento -page é necessário.')
+    if args.path is None and args:
+        parser.error('O argumento -path é necessário.')
 
     # Agora você pode acessar os valores dos argumentos
     search = args.search
